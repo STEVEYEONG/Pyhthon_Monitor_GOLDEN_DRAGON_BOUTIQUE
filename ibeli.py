@@ -49,7 +49,7 @@ def main():
         #     return
             
         # else:
-        webhook = DiscordWebhook(url="https://discord.com/api/webhooks/948584759632732160/86Cl7aMoiXlu2B_X2GZAuSl6JdZCvPgm-9Jk6u5v1tDMz0fMz-0MY5HkJPuxcEv_-FzY", username="Golden Dragon Boutique")
+        webhook = DiscordWebhook(url="<INSERT YOUR DISCORD WEBHOOK>", username="Golden Dragon Boutique")
 
         embed = DiscordEmbed(
             title= name, description= "GOLDEN DRAGON BOUTIQUE", color= whcolor
